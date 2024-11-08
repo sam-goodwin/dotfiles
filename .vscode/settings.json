@@ -32,6 +32,9 @@
         "editor.insertSpaces": true,
         "editor.defaultFormatter": "biomejs.biome"
     },
+    "[typescript|javascript|tsx|jsx]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
     "ruff.lint.args": ["--config=pyproject.toml"],
     "ruff.importStrategy": "fromEnvironment",
     "rust-analyzer.checkOnSave.command": "clippy",
