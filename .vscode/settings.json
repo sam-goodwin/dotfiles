@@ -44,4 +44,9 @@
     // rust's noisy inlay hints are so distracting
     // "editor.inlayHints.enabled": "offUnlessPressed",
     // rust overlays "2 implemenations" on every fucking struct, this disables that at the cost of other lens features (who cares)
+
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    },
 }
